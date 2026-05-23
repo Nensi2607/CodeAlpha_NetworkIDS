@@ -1,0 +1,4 @@
+snort -V
+sudo snort -T -c /etc/snort/snort.lua
+sudo snort -i eth0 -v
+ping 8.8.8.8

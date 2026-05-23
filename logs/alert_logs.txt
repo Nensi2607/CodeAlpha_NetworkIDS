@@ -1,0 +1,24 @@
+[INFO] Snort IDS Monitoring Started
+
+Date:
+- Monitoring session executed successfully
+
+Interface Used:
+- eth0
+
+Activities Observed:
+- Live packet monitoring
+- ICMP ping traffic detection
+- Real-time network traffic analysis
+
+Commands Executed:
+- snort -V
+- sudo snort -T -c /etc/snort/snort.lua
+- sudo snort -i eth0 -v
+- ping 8.8.8.8
+
+Monitoring Status:
+- ACTIVE
+
+Result:
+- Snort successfully monitored network packets and analyzed ICMP traffic in real time.
